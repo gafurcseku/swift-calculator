@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var inputTextField: UITextField!
     let calculator = Calculator();
 
     override func viewDidLoad() {
@@ -25,49 +26,21 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func ZeoButton(_ sender: Any) {
+    @IBAction func NumberInputUIButton(_ sender: UIButton) {
+        inputTextField.text = inputTextField.text! + String(sender.tag);
         
     }
+    
+    @IBAction func operationUIButton(_ sender: UIButton) {
+        
+        if sender.tag == 11 {
+            inputTextField.text = "";
+        } else if sender.tag == 12 {
+            let sqrtValue=sqrt(Double(inputTextField.text!)!);
+            inputTextField.text = String(sqrtValue);
+        }
+    }
+    
 
-    @IBAction func pointButton(_ sender: Any) {
-    }
-   
-    @IBAction func oneButton(_ sender: Any) {
-    }
-    
-    @IBAction func twoButton(_ sender: Any) {
-    }
-    
-    
-    @IBAction func threeButton(_ sender: Any) {
-    }
-    
-    @IBAction func fourButton(_ sender: Any) {
-    }
-    
-    @IBAction func fiveButton(_ sender: Any) {
-    }
-    
-    @IBAction func sixButton(_ sender: Any) {
-    }
-    
-    @IBAction func sevenButton(_ sender: Any) {
-    }
-    
-    
-    @IBAction func eightButton(_ sender: Any) {
-    }
-    
-    @IBAction func nineButton(_ sender: Any) {
-    }
-    
-    @IBAction func minasButton(_ sender: Any) {
-    }
-    
-    @IBAction func plusButton(_ sender: Any) {
-    }
-    
-    @IBAction func resultButton(_ sender: Any) {
-    }
 }
 
