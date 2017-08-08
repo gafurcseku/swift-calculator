@@ -167,7 +167,7 @@
                                                             <action selector="NumberInputUIButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JL9-QG-42D"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb6-la-bWv">
+                                                    <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb6-la-bWv">
                                                         <rect key="frame" x="288" y="0.0" width="86" height="103"/>
                                                         <color key="backgroundColor" red="0.61176470589999998" green="0.61176470589999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -236,7 +236,7 @@
                                                             <action selector="NumberInputUIButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Odm-BK-7Uz"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dog-4d-4Yv">
+                                                    <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dog-4d-4Yv">
                                                         <rect key="frame" x="288" y="0.0" width="86" height="102.66666666666669"/>
                                                         <color key="backgroundColor" red="0.61176470589999998" green="0.61176470589999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -355,7 +355,7 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4X-sD-kFG">
+                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4X-sD-kFG">
                                                 <rect key="frame" x="284.33333333333326" y="0.0" width="89.666666666666686" height="225"/>
                                                 <color key="backgroundColor" red="0.61176470589999998" green="0.61176470589999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>

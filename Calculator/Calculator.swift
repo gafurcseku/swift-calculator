@@ -22,4 +22,8 @@ class Calculator {
         return firstNumber*secondNumber;
     }
     
+    func Division(firstNumber:Double ,secondNumber:Double  ) -> Double {
+        return firstNumber/secondNumber;
+    }
+    
 }
